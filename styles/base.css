@@ -1,0 +1,12 @@
+
+body {
+  font-family: 'Geomanist';
+  color: $color-black;
+  background-color: $color-white;
+}
+
+a {
+  text-decoration: none;
+  color: $color-red;
+}
+
