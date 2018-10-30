@@ -4,4 +4,9 @@
   &-xlg {
     padding: $base-spacing-xlg 0;
   }
+
+  &--dark {
+    background-color: $color-black;
+    color: $color-tan;
+  }
 }

@@ -2,6 +2,10 @@
 @import './reset.scss';
 @import './base.scss';
 @import './sections.scss';
+@import './container.scss';
+@import './technologies.scss';
+@import './headers.scss';
+@import './footer.scss';
 @import './fonts/index.scss';
 
 .heading {
@@ -9,6 +13,10 @@
 
 .gray {
   color: $color-gray;
+}
+
+.light {
+  font-weight: 300
 }
 
 .italic {

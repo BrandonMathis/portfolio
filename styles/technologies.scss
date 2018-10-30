@@ -1,0 +1,24 @@
+.technologies {
+  &__header {
+    font-weight: 400;
+    padding-bottom: $base-spacing;
+  }
+
+  &__list {
+    font-weight: 200;
+    display: flex;
+
+    ul {
+      margin-left: $base-spacing;
+    }
+
+    ul:first-child {
+      margin-left: 0px;
+    }
+
+    ul >  li {
+      flex: 1 0 21%; /* explanation below */
+      margin-bottom: $base-spacing-tiny;
+    }
+  }
+}
