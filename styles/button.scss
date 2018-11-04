@@ -1,0 +1,19 @@
+.button {
+  background: $color-red;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1;
+	margin: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	outline: 2px solid transparent;
+	outline-offset: -4px;
+	padding: 1rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}

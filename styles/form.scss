@@ -1,0 +1,51 @@
+.form-group {
+  max-width: 500px;
+  margin-bottom: 1em;
+
+  @media only screen and (max-device-width : 500px) {
+    width: 100%;
+  }
+
+  textarea, select, input, button { outline: none; }
+
+  input {
+    font-family: 'Geomanist';
+    font-weight: 200;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: $color-tan;
+    border: none;
+  }
+
+  textarea {
+    box-sizing: border-box;
+    font-family: 'Geomanist';
+    font-weight: 200;
+    padding: 0.5rem;
+    width: 100%;
+    background-color: $color-tan;
+    font-size: 1rem;
+    resize: none;
+    height: 100px;
+    border: none;
+  }
+
+  input:focus, textarea:focus {
+    outline: solid 1px $color-red;
+    border: none;
+  }
+}
+
+.contact-form {
+  &__header {
+    padding-bottom: $base-spacing;
+
+    @media only screen and (max-device-width : 500px) {
+      .h2 {
+        letter-spacing: 2px;
+      }
+    }
+  }
+}

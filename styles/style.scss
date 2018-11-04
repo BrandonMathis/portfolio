@@ -4,7 +4,12 @@
 @import './sections.scss';
 @import './container.scss';
 @import './technologies.scss';
+@import './socials.scss';
+@import './awesome-companies.scss';
+@import './form.scss';
+@import './button.scss';
 @import './headers.scss';
+@import './heading.scss';
 @import './footer.scss';
 @import './fonts/index.scss';
 
@@ -21,13 +26,4 @@
 
 .italic {
   font-style: italic;
-}
-
-.awesome-companies {
-  display: flex;
-
-  img {
-    height: 50px;
-    filter: grayscale(100%);
-  }
 }

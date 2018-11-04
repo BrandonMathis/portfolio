@@ -1,0 +1,18 @@
+.socials {
+  &__header {
+    font-weight: 400;
+    padding-bottom: $base-spacing;
+  }
+
+  &__list {
+    max-width: 600px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    img {
+      height: 55px;
+    }
+  }
+}

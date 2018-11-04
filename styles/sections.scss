@@ -1,12 +1,20 @@
 .section {
   padding: $base-spacing 0;
 
-  &-xlg {
+  &--lg {
+    padding: $base-spacing-lg 0;
+  }
+
+  &--xlg {
     padding: $base-spacing-xlg 0;
   }
 
   &--dark {
     background-color: $color-black;
     color: $color-tan;
+  }
+
+  &--tan {
+    background-color: $color-tan;
   }
 }
