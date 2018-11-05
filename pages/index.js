@@ -40,7 +40,7 @@ const Index = () => (
           </div>
         </section>
 
-        <section className="section">
+        <section className="section section--sm">
           <div className="container">
             <p>Hi! I'm Brandon Mathis - Freelance Full Stack Developer, Community Organizer, Speaker and Co-Founder of <a href="http://groundlift.io">GroundLift</a>.</p>
             <p>I specialize in helping companies build applications, improve code, and crush deadlines.</p>
