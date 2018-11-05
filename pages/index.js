@@ -122,15 +122,18 @@ const Index = () => (
                   <li>JavaScript</li>
                   <li>Rails</li>
                   <li>React</li>
-                  <li>GraphQL</li>
+                  <li>GraphQL API</li>
                   <li>Apollo</li>
-                  <li>Unstated</li>
-                  <li>APIs</li>
-                  <li>REST</li>
-                  <li>Flux</li>
+                  <li>REST API</li>
                   <li>Redux</li>
                   <li>Node</li>
                   <li>MongoDB</li>
+                  <li>HTML/CSS</li>
+                  <li>JQuery</li>
+                  <li>SCSS</li>
+                  <li>PHP</li>
+                  <li>Wordpress</li>
+                  <li>Bootstrap</li>
                 </ul>
                 <ul>
                   <li>DevOps</li>
@@ -160,14 +163,6 @@ const Index = () => (
                   <li>GitLab</li>
                   <li>NewRelic</li>
                   <li>IBM Watson</li>
-                </ul>
-                <ul>
-                  <li>HTML/CSS</li>
-                  <li>JQuery</li>
-                  <li>SCSS</li>
-                  <li>PHP</li>
-                  <li>Wordpress</li>
-                  <li>Bootstrap</li>
                 </ul>
               </div>
             </div>
