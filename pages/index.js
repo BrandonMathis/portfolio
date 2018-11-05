@@ -28,7 +28,7 @@ const Index = () => (
 
     <main className="main">
       <div className="section--lg">
-        <section className="section">
+        <section className="section heading">
           <div className="container">
             <h1 className="h1 italic">Brandon Mathis</h1>
           </div>
