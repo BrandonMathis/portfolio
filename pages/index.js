@@ -48,7 +48,7 @@ const Index = () => (
                 <h2 className='h2 light'>Let's Do Some Work Together!</h2>
               </div>
 
-              <form name="contact" method="POST" data-netlify="true" action="/success">
+              <form name="contact" method="POST" data-netlify="true" action="/success" netlify=true>
                 <div className="form-group">
                   <input type='email' required="true" placeholder="YOUR EMAIL"/>
                 </div>
