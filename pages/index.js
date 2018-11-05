@@ -48,12 +48,12 @@ const Index = () => (
                 <h2 className='h2 light'>Let's Do Some Work Together!</h2>
               </div>
 
-              <form name="contact" method="POST" netlify="true" action="/success">
+              <form name="contact" method="POST" data-netlify="true" action="/success">
                 <div className="form-group">
-                  <input type='text' placeholder="YOUR EMAIL"/>
+                  <input type='email' required="true" placeholder="YOUR EMAIL"/>
                 </div>
                 <div className="form-group">
-                  <textarea placeholder="SEND A MESSAGE" />
+                  <textarea required="true" placeholder="SEND A MESSAGE" />
                 </div>
                 <div className="form-group">
                   <button className="button" type="submit">Send</button>
