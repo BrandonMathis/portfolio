@@ -53,6 +53,7 @@ const Index = () => (
                 method="post"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                action="/success/"
               >
                 <div className="form-group">
                   <input type='email' required={true} name="email" placeholder="YOUR EMAIL"/>
