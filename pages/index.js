@@ -114,7 +114,7 @@ const Index = () => (
           <div className="footer-content">
             <div className="technologies">
               <div className="technologies__header">
-                <h3>Technologies I am skilled in</h3>
+                <h3>TECHNOLOGIES I AM SKILLED IN</h3>
               </div>
               <div className="technologies__list">
                 <ul>
@@ -122,21 +122,44 @@ const Index = () => (
                   <li>JavaScript</li>
                   <li>Rails</li>
                   <li>React</li>
-                  <li>Flux</li>
-                  <li>Redux</li>
-                  <li>Node</li>
-                  <li>REST</li>
                   <li>GraphQL</li>
                   <li>Apollo</li>
                   <li>Unstated</li>
+                  <li>APIs</li>
+                  <li>REST</li>
+                  <li>Flux</li>
+                  <li>Redux</li>
+                  <li>Node</li>
+                  <li>MongoDB</li>
                 </ul>
                 <ul>
+                  <li>DevOps</li>
                   <li>Docker</li>
+                  <li>AWS</li>
+                  <li>Cloud</li>
                   <li>Ansible</li>
                   <li>Chef</li>
                   <li>Bash</li>
                   <li>Ubuntu</li>
                   <li>CentOS</li>
+                  <li>MySQL</li>
+                  <li>PostgreSQL</li>
+                  <li>NGINX</li>
+                  <li>CouchDB</li>
+                </ul>
+                <ul>
+                  <li>Twilio</li>
+                  <li>Stripe</li>
+                  <li>Auth0</li>
+                  <li>Netlify</li>
+                  <li>Mailgun</li>
+                  <li>MailChimp</li>
+                  <li>Sendgrid</li>
+                  <li>Twilio</li>
+                  <li>Circle CI</li>
+                  <li>GitLab</li>
+                  <li>NewRelic</li>
+                  <li>IBM Watson</li>
                 </ul>
                 <ul>
                   <li>HTML/CSS</li>
@@ -144,12 +167,13 @@ const Index = () => (
                   <li>SCSS</li>
                   <li>PHP</li>
                   <li>Wordpress</li>
+                  <li>Bootstrap</li>
                 </ul>
               </div>
             </div>
             <div className="socials">
               <div className="socials__header">
-                <h3>You Can Find Me At</h3>
+                <h3>YOU CAN FIND ME AT</h3>
               </div>
               <div className="socials__list">
                 <div className="social-item">
@@ -190,6 +214,8 @@ const Index = () => (
               </div>
             </div>
           </div>
+
+          <p>📍 <span className="italic light">Raleigh-Durham, NC</span></p>
         </div>
       </section>
     </footer>

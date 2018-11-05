@@ -36,6 +36,10 @@
     outline: solid 1px $color-red;
     border: none;
   }
+
+  textarea:required, input:required {
+    box-shadow: none;
+  }
 }
 
 .contact-form {

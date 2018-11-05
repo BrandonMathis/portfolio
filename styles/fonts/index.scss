@@ -33,6 +33,17 @@
 
 @font-face {
     font-family: 'Geomanist';
+    src: url('./fonts/Geomanist-Light-Italic-Webfont/geomanist-light-italic-webfont.eot');
+    src: url('./fonts/Geomanist-Light-Italic-Webfont/geomanist-light-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Geomanist-Light-Italic-Webfont/geomanist-light-italic-webfont.woff2') format('woff2'),
+         url('./fonts/Geomanist-Light-Italic-Webfont/geomanist-light-italic-webfont.woff') format('woff'),
+         url('./fonts/Geomanist-Light-Italic-Webfont/geomanist-light-italic-webfont.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Geomanist';
     src: url('./fonts/Geomanist-Medium-Italic-Webfont/geomanist-medium-italic-webfont.eot');
     src: url('./fonts/Geomanist-Medium-Italic-Webfont/geomanist-medium-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('./fonts/Geomanist-Medium-Italic-Webfont/geomanist-medium-italic-webfont.woff2') format('woff2'),
