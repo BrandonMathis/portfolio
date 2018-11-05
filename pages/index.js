@@ -10,7 +10,6 @@ import ato from "../images/ato.png";
 import moogfest from "../images/moogfest.png";
 import weaveup from "../images/weaveup.png";
 import bioconnect from "../images/bioconnect.png";
-import favicon from "../images/favicon.png";
 
 import blog from "../images/blog.svg";
 import twitter from "../images/twitter.svg";
@@ -19,16 +18,25 @@ import meetup from "../images/meetup.svg";
 import instagram from "../images/instagram.svg";
 import linkedin from "../images/linkedin.svg";
 import mail from "../images/mail.svg";
+import applFav from "../images/favicon/apple-touch-icon.png";
+import fav32 from "../images/favicon/favicon-32x32.png";
+import fav16 from "../images/favicon/favicon-16x16.png";
+import favSafari from "../images/favicon/safari-pinned-tab.svg";
 
 const Index = () => (
   <div>
     <Head>
       <title>🕹Brandon Mathis</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
       <meta name="description" content="Brandon Mathis, Freelance Fullstack Developer. Raleigh, NC" />
-      <link rel="icon" type="image/png" href={favicon} />
+      <link rel="apple-touch-icon" sizes="180x180" href={applFav} />
+      <link rel="icon" type="image/png" sizes="32x32" href={fav32} />
+      <link rel="icon" type="image/png" sizes="16x16" href={fav16} />
+      <link rel="mask-icon" href={favSafari} color="#5bbad5" />
+      <meta name="msapplication-TileColor" content="#da532c" />
+      <meta name="theme-color" content="#ffffff" />
     </Head>
 
     <main className="main">
