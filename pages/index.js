@@ -55,10 +55,10 @@ const Index = () => (
                 data-netlify-honeypot="bot-field"
               >
                 <div className="form-group">
-                  <input type='email' required="true" name="email" placeholder="YOUR EMAIL"/>
+                  <input type='email' required={true} name="email" placeholder="YOUR EMAIL"/>
                 </div>
                 <div className="form-group">
-                  <textarea required="true" name="message" placeholder="SEND A MESSAGE" />
+                  <textarea required={true} name="message" placeholder="SEND A MESSAGE" />
                 </div>
                 <div className="form-group">
                   <button className="button">Send</button>
