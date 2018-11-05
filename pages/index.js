@@ -50,10 +50,10 @@ const Index = () => (
 
               <form name="contact" method="POST" data-netlify="true" action="/success" netlify="true">
                 <div className="form-group">
-                  <input type='email' required="true" placeholder="YOUR EMAIL"/>
+                  <input type='email' required="true" name="email" placeholder="YOUR EMAIL"/>
                 </div>
                 <div className="form-group">
-                  <textarea required="true" placeholder="SEND A MESSAGE" />
+                  <textarea required="true" name="message" placeholder="SEND A MESSAGE" />
                 </div>
                 <div className="form-group">
                   <button className="button" type="submit">Send</button>
