@@ -1,6 +1,7 @@
 @import './variables.scss';
 @import './reset.scss';
 @import './base.scss';
+@import './typography.scss';
 @import './sections.scss';
 @import './container.scss';
 @import './technologies.scss';
@@ -14,22 +15,6 @@
 @import './fonts/index.scss';
 
 .heading {
-}
-
-.gray {
-  color: $color-gray;
-}
-
-.light {
-  font-weight: 200;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.center {
-  text-align: center;
 }
 
 .thankyou {

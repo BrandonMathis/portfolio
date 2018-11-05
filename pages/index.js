@@ -10,6 +10,7 @@ import ato from "../images/ato.png";
 import moogfest from "../images/moogfest.png";
 import weaveup from "../images/weaveup.png";
 import bioconnect from "../images/bioconnect.png";
+import favicon from "../images/favicon.png";
 
 import blog from "../images/blog.svg";
 import twitter from "../images/twitter.svg";
@@ -22,8 +23,12 @@ import mail from "../images/mail.svg";
 const Index = () => (
   <div>
     <Head>
-      <title>Brandon Mathis</title>
+      <title>🕹Brandon Mathis</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      <meta name="description" content="Brandon Mathis, Freelance Fullstack Developer. Raleigh, NC" />
+      <link rel="icon" type="image/png" href={favicon} />
     </Head>
 
     <main className="main">
@@ -31,6 +36,7 @@ const Index = () => (
         <section className="section heading">
           <div className="container">
             <h1 className="h1 italic">Brandon Mathis</h1>
+            <p className="light">Freelance Full Stack Developer</p>
           </div>
         </section>
 
