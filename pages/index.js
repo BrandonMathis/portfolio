@@ -3,10 +3,10 @@ import Head from 'next/head'
 import "../styles/style.scss"
 
 import adwerx from "../images/adwerx.png";
-import mac from "../images/mac.svg";
+import mac from "../images/mac.png";
 import duke from "../images/duke.png";
 import danafarber from "../images/danafarber.png";
-import ato from "../images/ato.svg";
+import ato from "../images/ato.png";
 import moogfest from "../images/moogfest.png";
 import weaveup from "../images/weaveup.png";
 import bioconnect from "../images/bioconnect.png";
@@ -48,7 +48,7 @@ const Index = () => (
                 <h2 className='h2 light'>Let's Do Some Work Together!</h2>
               </div>
 
-              <form name="contact" method="POST" data-netlify="true" action="/success" netlify=true>
+              <form name="contact" method="POST" data-netlify="true" action="/success" netlify="true">
                 <div className="form-group">
                   <input type='email' required="true" placeholder="YOUR EMAIL"/>
                 </div>
@@ -145,27 +145,41 @@ const Index = () => (
                 <h3>You Can Find Me At</h3>
               </div>
               <div className="socials__list">
-                <a href="https://blog.brandonmathis.me">
-                  <img src={blog} />
-                </a>
-                <a href="https://twitter.com/brandonmathis">
-                  <img src={twitter} />
-                </a>
-                <a href="https://github.com/BrandonMathis">
-                  <img src={github} />
-                </a>
-                <a href="https://www.meetup.com/members/12126824/">
-                  <img src={meetup} />
-                </a>
-                <a href="https://www.instagram.com/brandonmathis_/">
-                  <img src={instagram} />
-                </a>
-                <a href="https://www.linkedin.com/in/mathisbrandon/">
-                  <img src={linkedin} />
-                </a>
-                <a href="mailto:BeMathis@gmail.com">
-                  <img src={mail} />
-                </a>
+                <div className="social-item">
+                  <a href="https://blog.brandonmathis.me">
+                    <img src={blog} />
+                  </a>
+                </div>
+                <div className="social-item">
+                  <a href="https://twitter.com/brandonmathis">
+                    <img src={twitter} />
+                  </a>
+                </div>
+                <div className="social-item">
+                  <a href="https://github.com/BrandonMathis">
+                    <img src={github} />
+                  </a>
+                </div>
+                <div className="social-item">
+                  <a href="https://www.meetup.com/members/12126824/">
+                    <img src={meetup} />
+                  </a>
+                </div>
+                <div className="social-item">
+                  <a href="https://www.instagram.com/brandonmathis_/">
+                    <img src={instagram} />
+                  </a>
+                </div>
+                <div className="social-item">
+                  <a href="https://www.linkedin.com/in/mathisbrandon/">
+                    <img src={linkedin} />
+                  </a>
+                </div>
+                <div className="social-item">
+                  <a href="mailto:BeMathis@gmail.com">
+                    <img src={mail} />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

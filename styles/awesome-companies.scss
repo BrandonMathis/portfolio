@@ -22,7 +22,7 @@
     .company-logo {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       width: 200px;
       padding: $base-spacing 0;
       padding-right: $base-spacing-xlg;
@@ -43,10 +43,5 @@
     img.square {
       width: 80%;
     }
-  }
-
-  &__companies::after {
-    content: "";
-    flex: auto;
   }
 }
