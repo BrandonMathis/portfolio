@@ -3,6 +3,14 @@ import Head from 'next/head'
 import "../styles/style.scss"
 
 import adwerx from "../images/adwerx.png";
+import mac from "../images/mac.svg";
+import duke from "../images/duke.png";
+import danafarber from "../images/danafarber.png";
+import ato from "../images/ato.svg";
+import moogfest from "../images/moogfest.png";
+import weaveup from "../images/weaveup.png";
+import bioconnect from "../images/bioconnect.png";
+
 import blog from "../images/blog.svg";
 import twitter from "../images/twitter.svg";
 import github from "../images/github.svg";
@@ -40,7 +48,7 @@ const Index = () => (
                 <h2 className='h2 light'>Let's Do Some Work Together!</h2>
               </div>
 
-              <form>
+              <form netlify="true">
                 <div className="form-group">
                   <input type='text' placeholder="YOUR EMAIL"/>
                 </div>
@@ -62,8 +70,31 @@ const Index = () => (
             <div className='awesome-companies__header'>
               <h2 className="h2">Amazing Companies I've Worked With</h2>
             </div>
-            <div className='awesome-companies__companies'>
-              <img src={adwerx} />
+            <div className="awesome-companies__companies">
+              <div className="company-logo company-logo--square">
+                <img className="square" src={ato} />
+              </div>
+              <div className="company-logo company-logo--square">
+                <img className="square" src={weaveup} />
+              </div>
+              <div className="company-logo">
+                <img src={adwerx} />
+              </div>
+              <div className="company-logo">
+                <img src={bioconnect} />
+              </div>
+              <div className="company-logo">
+                <img src={duke} />
+              </div>
+              <div className="company-logo">
+                <img src={mac} />
+              </div>
+              <div className="company-logo">
+                <img src={danafarber} />
+              </div>
+              <div className="company-logo">
+                <img src={moogfest} />
+              </div>
             </div>
           </div>
         </div>

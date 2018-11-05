@@ -11,10 +11,42 @@
 
   &__companies {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media only screen and (max-device-width : 500px) {
+      justify-content: center;
+    }
+
+    .company-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      padding: $base-spacing 0;
+      padding-right: $base-spacing-xlg;
+
+      @media only screen and (max-device-width : 500px) {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+    }
 
     img {
-      height: 50px;
-      filter: grayscale(100%);
+      width: 100%;
+      height: auto;
+      filter:  grayscale(100%) brightness(60%) contrast(200%) saturate(0%);
+      opacity: .5;
     }
+
+    img.square {
+      width: 80%;
+    }
+  }
+
+  &__companies::after {
+    content: "";
+    flex: auto;
   }
 }
