@@ -23,6 +23,21 @@ import fav32 from "../images/favicon/favicon-32x32.png";
 import fav16 from "../images/favicon/favicon-16x16.png";
 import favSafari from "../images/favicon/safari-pinned-tab.svg";
 
+function resetForm() {
+  document.getElementById('firstname').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('message').value = '';
+}
+
+function submitForm(e) {
+  e.preventDefault();
+  if (document.getElementById('firstname').value.length > 0) {
+    resetForm();
+    return;
+  }
+  e.target.submit();
+}
+
 const Index = () => (
   <div>
     <Head>
@@ -69,14 +84,18 @@ const Index = () => (
                 data-netlify-honeypot="bot-field"
                 netlify-honeypot="bot-field"
                 action="/success"
+                onSubmit={submitForm}
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <input hidden name="bot-field" />
                 <div className="form-group">
-                  <input type='email' required={true} name="email" placeholder="YOUR EMAIL"/>
+                  <input type='email' required={true} id="email" name="email" placeholder="YOUR EMAIL"/>
                 </div>
                 <div className="form-group">
-                  <textarea required={true} name="message" placeholder="SEND A MESSAGE" />
+                  <input type='firstname' id="firstname" name="firstname" placeholder="FIRST NAME"/>
+                </div>
+                <div className="form-group">
+                  <textarea required={true} id="message" name="message" placeholder="SEND A MESSAGE" />
                 </div>
                 <div className="form-group">
                   <button className="button">Send</button>
