@@ -199,7 +199,7 @@ const Index = () => {
                 </div>
                 <div className="socials__list">
                   <div className="social-item">
-                    <a href="https://blog.brandonmathis.me">
+                    <a href="https://medium.com/@brandonmathis">
                       <img src={blog} />
                     </a>
                   </div>
