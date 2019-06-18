@@ -52,14 +52,14 @@ const Index = () => {
 
       <main className="main">
         <section className="section heading">
-          <div className="container">
+          <div className="container slide-in slide-in__one">
             <h1 className="heading__head h1 italic">Brandon Mathis</h1>
             <h2 className="heading__subheading light">Freelance Full Stack Developer</h2>
           </div>
         </section>
 
         <section className="section section--sm">
-          <div className="container">
+          <div className="container slide-in slide-in__two">
             <p>
               Hi! I'm Brandon Mathis - Freelance Full Stack Developer, 
               Community Organizer, Speaker and Co-Founder of <a href="http://groundlift.io">GroundLift</a>.
@@ -71,7 +71,7 @@ const Index = () => {
         </section>
 
         <section className="section">
-          <div className="container">
+          <div className="container slide-in slide-in__three">
             <div className="contact-form">
               <div className="contact-form__header">
                 <h2 className='h2 light'>Let's Do Some Work Together!</h2>
@@ -102,7 +102,7 @@ const Index = () => {
         </section>
 
         <section className="section section--tan section--xlg">
-          <div className="container">
+          <div className="container fade-in fade-in__four">
             <div className='awesome-companies'>
               <div className='awesome-companies__header'>
                 <h2 className="h2">Amazing Companies I've Worked With</h2>

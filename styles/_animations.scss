@@ -1,0 +1,44 @@
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: fadeIn ease-in 1s, slideLeft ease-in-out 1s;
+  animation-fill-mode: forwards;
+
+  &__one { }
+
+  &__two {
+    animation-delay: 0.25s;
+  }
+
+  &__three {
+    animation-delay: 0.5s;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease-in 1s;
+  animation-fill-mode: forwards;
+
+  &__four {
+    animation-delay: 1s;
+  }
+}
