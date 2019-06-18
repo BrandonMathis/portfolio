@@ -3,6 +3,8 @@
     padding-bottom: $base-spacing;
 
     @media only screen and (max-device-width : 500px) {
+      text-align: center;
+
       .h2 {
         letter-spacing: 1px;
       }
@@ -26,6 +28,7 @@
       width: 200px;
       padding: $base-spacing 0;
       padding-right: $base-spacing-xlg;
+      text-align: center;
 
       @media only screen and (max-device-width : 500px) {
         padding-right: 0px;
@@ -38,10 +41,6 @@
       height: auto;
       filter:  grayscale(100%) brightness(60%) contrast(200%) saturate(0%);
       opacity: .5;
-    }
-
-    img.square {
-      width: 80%;
     }
   }
 }

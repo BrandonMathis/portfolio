@@ -51,52 +51,55 @@ const Index = () => {
       </Head>
 
       <main className="main">
-        <div className="section--lg">
-          <section className="section heading">
-            <div className="container">
-              <h1 className="h1 italic">Brandon Mathis</h1>
-              <p className="light">Freelance Full Stack Developer</p>
-            </div>
-          </section>
+        <section className="section heading">
+          <div className="container">
+            <h1 className="heading__head h1 italic">Brandon Mathis</h1>
+            <h2 className="heading__subheading light">Freelance Full Stack Developer</h2>
+          </div>
+        </section>
 
-          <section className="section section--sm">
-            <div className="container">
-              <p>Hi! I'm Brandon Mathis - Freelance Full Stack Developer, Community Organizer, Speaker and Co-Founder of <a href="http://groundlift.io">GroundLift</a>.</p>
-              <p>I specialize in helping companies build applications, improve code, and crush deadlines.</p>
-            </div>
-          </section>
+        <section className="section section--sm">
+          <div className="container">
+            <p>
+              Hi! I'm Brandon Mathis - Freelance Full Stack Developer, 
+              Community Organizer, Speaker and Co-Founder of <a href="http://groundlift.io">GroundLift</a>.
+            </p>
+            <p>
+              I specialize in helping companies build applications, improve code, and crush deadlines.
+            </p>
+          </div>
+        </section>
 
-          <section className="section">
-            <div className="container">
-              <div className="contact-form">
-                <div className="contact-form__header">
-                  <h2 className='h2 light'>Let's Do Some Work Together!</h2>
-                </div>
-
-                <form
-                  method="POST"
-                  action="/success"
-                  netlify-honeypot="firstname"
-                  data-netlify="true"
-                >
-                  <input type="hidden" name="form-name" value="contact" />
-                  <div className="form-group">
-                    <input type='email' required={true} id="email" name="email" placeholder="YOUR EMAIL"/>
-                  </div>
-                  <div className="form-group">
-                    <input type='firstname' id="firstname" name="firstname" placeholder="FIRST NAME"/>
-                  </div>
-                  <div className="form-group">
-                    <textarea required={true} id="message" name="message" placeholder="SEND A MESSAGE" />
-                  </div>
-                  <div className="form-group">
-                    <button className="button">Send</button>
-                  </div>
-                </form>
+        <section className="section">
+          <div className="container">
+            <div className="contact-form">
+              <div className="contact-form__header">
+                <h2 className='h2 light'>Let's Do Some Work Together!</h2>
               </div>
+
+              <form
+                method="POST"
+                action="/success"
+                netlify-honeypot="firstname"
+                data-netlify="true"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <div className="form-group">
+                  <input type='email' required={true} id="email" name="email" placeholder="YOUR EMAIL"/>
+                </div>
+                <div className="form-group">
+                  <input type='firstname' id="firstname" name="firstname" placeholder="FIRST NAME"/>
+                </div>
+                <div className="form-group">
+                  <textarea required={true} id="message" name="message" placeholder="SEND A MESSAGE" />
+                </div>
+                <div className="form-group">
+                  <button className="button">Send</button>
+                </div>
+              </form>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
 
         <section className="section section--tan section--xlg">
           <div className="container">
@@ -106,28 +109,44 @@ const Index = () => {
               </div>
               <div className="awesome-companies__companies">
                 <div className="company-logo company-logo--square">
-                  <img className="square" src={ato} />
+                  <a href="https://allthingsopen.org/">
+                    <img className="square" src={ato} />
+                  </a>
                 </div>
                 <div className="company-logo company-logo--square">
-                  <img className="square" src={weaveup} />
+                  <a href="https://weaveup.com/">
+                    <img className="square" src={weaveup} />
+                  </a>
                 </div>
                 <div className="company-logo">
-                  <img src={adwerx} />
+                  <a href="https://www.adwerx.com/">
+                    <img src={adwerx} />
+                  </a>
                 </div>
                 <div className="company-logo">
-                  <img src={bioconnect} />
+                  <a href="https://bioconnect.com/">
+                    <img src={bioconnect} />
+                  </a>
                 </div>
                 <div className="company-logo">
-                  <img src={duke} />
+                  <a href="https://www.dukehealth.org/">
+                    <img src={duke} />
+                  </a>
                 </div>
                 <div className="company-logo">
-                  <img src={mac} />
+                  <a href="https://www.maccosmetics.com/">
+                    <img src={mac} />
+                  </a>
                 </div>
                 <div className="company-logo">
-                  <img src={danafarber} />
+                  <a href="https://www.dana-farber.org/">
+                    <img src={danafarber} />
+                  </a>
                 </div>
                 <div className="company-logo">
-                  <img src={moogfest} />
+                  <a href="https://www.moogfest.com/">
+                    <img src={moogfest} />
+                  </a>
                 </div>
               </div>
             </div>

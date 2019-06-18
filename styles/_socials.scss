@@ -1,7 +1,7 @@
 .socials {
   &__header {
     font-weight: 400;
-    padding-bottom: $base-spacing;
+    padding-bottom: $base-spacing-sm;
   }
 
   &__list {
@@ -17,6 +17,7 @@
 
     .social-item {
       padding-right: 0.5rem;
+      padding-bottom: 0.5rem;
     }
   }
 
