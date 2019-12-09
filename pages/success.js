@@ -3,7 +3,8 @@ import "../styles/style.scss"
 const Success = () => (
   <main className="main">
     <div className="section--xxlg center">
-      <h1 className="h1 italic">Thankyou For Your Interest</h1>
+      <h1 className="h1 italic">Thankyou!</h1>
+      <h3 className="h3 italic">I will be in touch with you soon</h3>
     </div>
 
     <div className="section--xxlg center">
