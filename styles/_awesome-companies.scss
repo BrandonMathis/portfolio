@@ -30,6 +30,13 @@
       padding-right: $base-spacing-xlg;
       text-align: center;
 
+      &--white {
+        img {
+          opacity: 1;
+          filter:  grayscale(100%) brightness(45%) contrast(200%) saturate(0%);
+        }
+      }
+
       @media only screen and (max-device-width : 500px) {
         padding-right: 0px;
         padding-left: 0px;

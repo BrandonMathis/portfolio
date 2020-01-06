@@ -11,6 +11,9 @@ import ato from "../images/ato.png";
 import moogfest from "../images/moogfest.png";
 import weaveup from "../images/weaveup.png";
 import bioconnect from "../images/bioconnect.png";
+import vtestify from "../images/vtestify.png";
+import vaco from "../images/vaco.png";
+import castra from "../images/castra.png";
 
 import blog from "../images/blog.svg";
 import twitter from "../images/twitter.svg";
@@ -54,7 +57,7 @@ const Index = () => {
         <section className="section heading">
           <div className="container slide-in slide-in__one">
             <h1 className="heading__head h1 italic">Brandon Mathis</h1>
-            <h2 className="heading__subheading light">Freelance Full Stack Developer</h2>
+            <h2 className="h2 heading__subheading light">Freelance Full Stack Developer</h2>
           </div>
         </section>
 
@@ -108,6 +111,21 @@ const Index = () => {
                 <h2 className="h2">Amazing Companies I've Worked With</h2>
               </div>
               <div className="awesome-companies__companies">
+                <div className="company-logo">
+                  <a href="https://www.vaco.com/">
+                    <img src={vaco} />
+                  </a>
+                </div>
+                <div className="company-logo company-logo--white">
+                  <a href="https://www.vtestify.com/">
+                    <img src={vtestify} />
+                  </a>
+                </div>
+                <div className="company-logo">
+                  <a href="https://www.castraconsulting.com/">
+                    <img src={castra} />
+                  </a>
+                </div>
                 <div className="company-logo company-logo--square">
                   <a href="https://allthingsopen.org/">
                     <img className="square" src={ato} />
