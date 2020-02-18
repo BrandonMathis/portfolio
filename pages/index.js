@@ -81,6 +81,7 @@ const Index = () => {
               </div>
 
               <form
+                name="contact"
                 method="POST"
                 action="/success"
                 netlify-honeypot="firstname"
@@ -90,8 +91,8 @@ const Index = () => {
                 <div className="form-group">
                   <input type='email' required={true} id="email" name="email" placeholder="YOUR EMAIL"/>
                 </div>
-                <div className="form-group">
-                  <input type='firstname' id="firstname" name="firstname" placeholder="FIRST NAME"/>
+                <div className="form-group form-group--hidden">
+                  <input name="firstname"/>
                 </div>
                 <div className="form-group">
                   <textarea required={true} id="message" name="message" placeholder="SEND A MESSAGE" />
