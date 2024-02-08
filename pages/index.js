@@ -64,11 +64,11 @@ const Index = () => {
         <section className="section section--sm">
           <div className="container slide-in slide-in__two">
             <p>
-              Hi! I'm Brandon Mathis - Freelance Full Stack Developer, 
+              Hi! I'm Brandon Mathis - Full Stack Web and Mobile Application Developer, 
               Community Organizer, Speaker and Co-Founder of <a href="http://groundlift.io">GroundLift</a>.
             </p>
             <p>
-              I specialize in helping companies build applications, improve code, and crush deadlines.
+              I specialize in helping companies build applications, improve code, and make deadlines.
             </p>
           </div>
         </section>
@@ -77,7 +77,7 @@ const Index = () => {
           <div className="container slide-in slide-in__three">
             <div className="contact-form">
               <div className="contact-form__header">
-                <h2 className='h2 light'>Let's Do Some Work Together!</h2>
+                <h2 className='h2 light'>Get in touch!</h2>
               </div>
 
               <form
