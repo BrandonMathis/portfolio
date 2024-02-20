@@ -12,6 +12,7 @@ import bioconnect from "../images/bioconnect.png";
 import vtestify from "../images/vtestify.png";
 import vaco from "../images/vaco.png";
 import castra from "../images/castra.png";
+import mckesson from "../images/mckesson.png";
 
 import blog from "../images/blog.svg";
 import twitter from "../images/twitter.svg";
@@ -111,14 +112,19 @@ const Index = () => {
                 <h2 className="h2">Amazing Companies I've Worked With</h2>
               </div>
               <div className="awesome-companies__companies">
-                <div className="company-logo">
-                  <a href="https://www.vaco.com/">
-                    <img src={vaco.src} />
-                  </a>
-                </div>
                 <div className="company-logo company-logo--white">
                   <a href="https://www.vtestify.com/">
                     <img src={vtestify.src} />
+                  </a>
+                </div>
+                <div className="company-logo">
+                  <a href="https://www.mckesson.com/">
+                    <img src={mckesson.src} />
+                  </a>
+                </div>
+                <div className="company-logo">
+                  <a href="https://www.vaco.com/">
+                    <img src={vaco.src} />
                   </a>
                 </div>
                 <div className="company-logo">
@@ -131,9 +137,9 @@ const Index = () => {
                     <img className="square" src={ato.src} />
                   </a>
                 </div>
-                <div className="company-logo company-logo--square">
-                  <a href="https://weaveup.com/">
-                    <img className="square" src={weaveup.src} />
+                <div className="company-logo">
+                  <a href="https://www.dukehealth.org/">
+                    <img src={duke.src} />
                   </a>
                 </div>
                 <div className="company-logo">
@@ -146,9 +152,9 @@ const Index = () => {
                     <img src={bioconnect.src} />
                   </a>
                 </div>
-                <div className="company-logo">
-                  <a href="https://www.dukehealth.org/">
-                    <img src={duke.src} />
+                <div className="company-logo company-logo--square">
+                  <a href="https://weaveup.com/">
+                    <img className="square" src={weaveup.src} />
                   </a>
                 </div>
                 <div className="company-logo">
@@ -237,37 +243,37 @@ const Index = () => {
                 <div className="socials__list">
                   <div className="social-item">
                     <a href="https://medium.com/@brandonmathis">
-                      <img src={blog} />
+                      <img src={blog.src} />
                     </a>
                   </div>
                   <div className="social-item">
                     <a href="https://twitter.com/brandonmathis">
-                      <img src={twitter} />
+                      <img src={twitter.src} />
                     </a>
                   </div>
                   <div className="social-item">
                     <a href="https://github.com/BrandonMathis">
-                      <img src={github} />
+                      <img src={github.src} />
                     </a>
                   </div>
                   <div className="social-item">
                     <a href="https://www.meetup.com/members/12126824/">
-                      <img src={meetup} />
+                      <img src={meetup.src} />
                     </a>
                   </div>
                   <div className="social-item">
                     <a href="https://www.instagram.com/brandonmathis_/">
-                      <img src={instagram} />
+                      <img src={instagram.src} />
                     </a>
                   </div>
                   <div className="social-item">
                     <a href="https://www.linkedin.com/in/mathisbrandon/">
-                      <img src={linkedin} />
+                      <img src={linkedin.src} />
                     </a>
                   </div>
                   <div className="social-item">
                     <a href="mailto:BeMathis@gmail.com">
-                      <img src={mail} />
+                      <img src={mail.src} />
                     </a>
                   </div>
                 </div>
