@@ -44,7 +44,7 @@ const Index = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-        <meta name="description" content="Brandon Mathis, Freelance Fullstack Developer. Raleigh, NC" />
+        <meta name="description" content="Brandon Mathis, Fullstack Developer. Raleigh, NC" />
         <link rel="apple-touch-icon" sizes="180x180" href={applFav.src} />
         <link rel="icon" type="image/png" sizes="32x32" href={fav32.src} />
         <link rel="icon" type="image/png" sizes="16x16" href={fav16.src} />
