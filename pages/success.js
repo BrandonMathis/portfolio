@@ -1,5 +1,3 @@
-import "../styles/style.scss"
-
 const Success = () => (
   <main className="main">
     <div className="section--xxlg center">

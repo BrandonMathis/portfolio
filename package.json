@@ -12,17 +12,9 @@
   "keywords": [],
   "author": "",
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
-    "next": "^7.0.2",
-    "next-fonts": "^0.10.0",
-    "next-images": "^1.0.1",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0"
+    "next": "^12.3.4"
   },
   "devDependencies": {
-    "node-sass": "^4.9.4",
-    "postcss-import": "^12.0.1",
-    "postcss-simple-vars": "^5.0.1"
+    "sass": "^1.71.0"
   }
 }

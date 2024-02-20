@@ -1,8 +1,6 @@
 import react, { Component } from 'react';
 import Head from 'next/head'
 
-import "../styles/style.scss"
-
 import adwerx from "../images/adwerx.png";
 import mac from "../images/mac.png";
 import duke from "../images/duke.png";
@@ -37,6 +35,7 @@ function submitForm(e) {
 }
 
 const Index = () => {
+  console.log({ applFav });
   return (
     <div>
       <Head>
@@ -45,10 +44,10 @@ const Index = () => {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <meta name="description" content="Brandon Mathis, Freelance Fullstack Developer. Raleigh, NC" />
-        <link rel="apple-touch-icon" sizes="180x180" href={applFav} />
-        <link rel="icon" type="image/png" sizes="32x32" href={fav32} />
-        <link rel="icon" type="image/png" sizes="16x16" href={fav16} />
-        <link rel="mask-icon" href={favSafari} color="#5bbad5" />
+        <link rel="apple-touch-icon" sizes="180x180" href={applFav.src} />
+        <link rel="icon" type="image/png" sizes="32x32" href={fav32.src} />
+        <link rel="icon" type="image/png" sizes="16x16" href={fav16.src} />
+        <link rel="mask-icon" href={favSafari.src} color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
@@ -114,57 +113,57 @@ const Index = () => {
               <div className="awesome-companies__companies">
                 <div className="company-logo">
                   <a href="https://www.vaco.com/">
-                    <img src={vaco} />
+                    <img src={vaco.src} />
                   </a>
                 </div>
                 <div className="company-logo company-logo--white">
                   <a href="https://www.vtestify.com/">
-                    <img src={vtestify} />
+                    <img src={vtestify.src} />
                   </a>
                 </div>
                 <div className="company-logo">
                   <a href="https://www.castraconsulting.com/">
-                    <img src={castra} />
+                    <img src={castra.src} />
                   </a>
                 </div>
                 <div className="company-logo company-logo--square">
                   <a href="https://allthingsopen.org/">
-                    <img className="square" src={ato} />
+                    <img className="square" src={ato.src} />
                   </a>
                 </div>
                 <div className="company-logo company-logo--square">
                   <a href="https://weaveup.com/">
-                    <img className="square" src={weaveup} />
+                    <img className="square" src={weaveup.src} />
                   </a>
                 </div>
                 <div className="company-logo">
                   <a href="https://www.adwerx.com/">
-                    <img src={adwerx} />
+                    <img src={adwerx.src} />
                   </a>
                 </div>
                 <div className="company-logo">
                   <a href="https://bioconnect.com/">
-                    <img src={bioconnect} />
+                    <img src={bioconnect.src} />
                   </a>
                 </div>
                 <div className="company-logo">
                   <a href="https://www.dukehealth.org/">
-                    <img src={duke} />
+                    <img src={duke.src} />
                   </a>
                 </div>
                 <div className="company-logo">
                   <a href="https://www.maccosmetics.com/">
-                    <img src={mac} />
+                    <img src={mac.src} />
                   </a>
                 </div>
                 <div className="company-logo">
                   <a href="https://www.dana-farber.org/">
-                    <img src={danafarber} />
+                    <img src={danafarber.src} />
                   </a>
                 </div>
                 <div className="company-logo">
                   <a href="https://www.moogfest.com/">
-                    <img src={moogfest} />
+                    <img src={moogfest.src} />
                   </a>
                 </div>
               </div>
