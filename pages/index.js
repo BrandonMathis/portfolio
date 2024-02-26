@@ -36,7 +36,6 @@ function submitForm(e) {
 }
 
 const Index = () => {
-  console.log({ applFav });
   return (
     <div>
       <Head>
@@ -57,18 +56,19 @@ const Index = () => {
         <section className="section heading">
           <div className="container slide-in slide-in__one">
             <h1 className="heading__head h1 italic">Brandon Mathis</h1>
-            <h2 className="h2 heading__subheading light">Freelance Full Stack Developer</h2>
+            <h2 className="h2 heading__subheading light">
+              Full Stack Engineer
+            </h2>
           </div>
         </section>
 
         <section className="section section--sm">
           <div className="container slide-in slide-in__two">
             <p>
-              Hi! I'm Brandon Mathis - Full Stack Web and Mobile Application Developer, 
-              Community Organizer, Speaker and Co-Founder of <a href="http://groundlift.io">GroundLift</a>.
+              Hi! I'm Brandon Mathis - Full Stack Software Engineer, and Lifelong Tinkerer. Founder of <a href="https://triangledevelopers.com/">Triangle Devs</a>.
             </p>
             <p>
-              I specialize in helping companies build applications, improve code, and make deadlines.
+              I specialize in helping companies build digital products, improve code, and make deadlines.
             </p>
           </div>
         </section>
