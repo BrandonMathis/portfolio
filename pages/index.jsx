@@ -1,4 +1,3 @@
-import react, { Component } from 'react';
 import Head from 'next/head'
 
 import adwerx from "../images/adwerx.png";
