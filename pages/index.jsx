@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useState } from 'react'
 
 import adwerx from "../images/adwerx.png";
 import mac from "../images/mac.png";
@@ -25,16 +26,31 @@ import fav32 from "../images/favicon/favicon-32x32.png";
 import fav16 from "../images/favicon/favicon-16x16.png";
 import favSafari from "../images/favicon/safari-pinned-tab.svg";
 
-function resetForm() {
-  document.getElementById('firstname').value = '';
-  document.getElementById('email').value = '';
-  document.getElementById('message').value = '';
-}
-
-function submitForm(e) {
-}
-
 const Index = () => {
+  const [submitError, setSubmitError] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+
+  async function submitForm(event) {
+    event.preventDefault();
+    setSubmitError('');
+    setSubmitting(true);
+
+    try {
+      const body = new URLSearchParams(new FormData(event.currentTarget)).toString();
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body,
+      });
+
+      if (!response.ok) throw new Error('Form submission failed');
+      window.location.assign('/success');
+    } catch {
+      setSubmitError('Your message could not be sent. Please try again.');
+      setSubmitting(false);
+    }
+  }
+
   return (
     <div>
       <Head>
@@ -85,6 +101,7 @@ const Index = () => {
                 action="/success"
                 netlify-honeypot="firstname"
                 data-netlify="true"
+                onSubmit={submitForm}
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
@@ -97,8 +114,9 @@ const Index = () => {
                   <textarea required={true} id="message" name="message" placeholder="SEND A MESSAGE" />
                 </div>
                 <div className="form-group">
-                  <button className="button">Send</button>
+                  <button className="button" disabled={submitting}>Send</button>
                 </div>
+                {submitError && <p role="alert">{submitError}</p>}
               </form>
             </div>
           </div>
